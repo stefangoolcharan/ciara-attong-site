@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.hero-section {
+    display: grid;
+    background-color: #CF8B7D;
+    padding-top: 15vh;
+    height: 80vh;
+}
+
+
+.layer1 {
+    background-image: url(/public/Images/layered-waves-haikei.svg);
+}
+
+
+.spacer {
+    aspect-ratio: 960/500;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    top: 18vh;
+}
+
+.red-btn {
+    padding: 15px;
+    width: 12%;
+    color: #ececec;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    background-color: #B45451;
+    border: 2px solid #ececec;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    section {
+        display: grid;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .title {
+        font-family: 'Abril Fatface', sans-serif;
+        text-align: center;
+        padding-top: 25px;
+        font-size: 3rem;
+        font-weight: 400;
+        color: #ececec;
+    }
+
+    .quotes {
+        font-family: 'Crimson Text', serif;
+        font-weight: 400;
+        font-size: 22px;
+        text-align: center;
+        color: #ececec;
+    }
+
+    .quotes p {
+        padding: 3vw;
+    }
+
+    #words a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    .red-btn {
+        width: 40%;
+    }
+
+    .spacer {
+        aspect-ratio: 340/900;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        top: 5vh;
+    }
+}
